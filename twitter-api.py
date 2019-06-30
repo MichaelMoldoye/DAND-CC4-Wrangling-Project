@@ -5,10 +5,10 @@ from timeit import default_timer as timer
 
 # Query Twitter API for each tweet in the Twitter archive and save JSON in a text file
 # These are hidden to comply with Twitter's API terms and conditions
-consumer_key = 'SrteWpbE5oDBj9FFJj34BusOz'
-consumer_secret = '7YCuvbiNEGLBrBIcUgeR61dSd2JXvGoIYeIQHgg7YwM4rG9zrD'
-access_token = '748235374539997184-3oAZXcKYQuhQ5xjseId7UmDF07i8ZcK'
-access_secret = 'hdtiuFgmlPpOLnuly0hI94vT6JFEpdoQTGyVTL0BGbAf3'
+consumer_key = 
+consumer_secret = 
+access_token = 
+access_secret = 
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
